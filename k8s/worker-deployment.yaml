@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chess-worker
+  namespace: chess-evaluation
+spec:
+  replicas: 3  # Scale workers as needed
+  selector:
+    matchLabels:
+      app: chess-worker
+  template:
+    metadata:
+      labels:
+        app: chess-worker
+    spec:
+      containers:
+      - name: worker
+        image: chess-evaluation-worker:latest
+        env:
+        - name: REDIS_HOST
+          value: "redis"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: CELERY_BROKER_URL
+          value: "redis://redis:6379/0"
+        - name: CELERY_RESULT_BACKEND
+          value: "redis://redis:6379/0"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "2000m"
+

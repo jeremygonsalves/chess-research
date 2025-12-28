@@ -1,0 +1,2 @@
+"""Prometheus metrics collection."""
+

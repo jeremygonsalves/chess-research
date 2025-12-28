@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chess-api
+  namespace: chess-evaluation
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: chess-api
+  template:
+    metadata:
+      labels:
+        app: chess-api
+    spec:
+      containers:
+      - name: api
+        image: chess-evaluation-api:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: REDIS_HOST
+          value: "redis"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: CELERY_BROKER_URL
+          value: "redis://redis:6379/0"
+        - name: CELERY_RESULT_BACKEND
+          value: "redis://redis:6379/0"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: chess-api
+  namespace: chess-evaluation
+spec:
+  selector:
+    app: chess-api
+  ports:
+  - port: 80
+    targetPort: 8000
+  type: LoadBalancer
+

@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    depends_on:
+      - redis
+    volumes:
+      - ./app:/app/app
+    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000
+
+  worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+      - STOCKFISH_PATH=/usr/bin/stockfish
+    depends_on:
+      - redis
+    volumes:
+      - ./app:/app/app
+    command: celery -A app.workers.celery_app worker --loglevel=info
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+      - api
+    volumes:
+      - ./app:/app/app
+    command: streamlit run app/dashboard/main.py --server.port=8501 --server.address=0.0.0.0
+
+volumes:
+  redis_data:
+

@@ -1,0 +1,390 @@
+{
+  "game_history": [
+    {
+      "move_number": 1,
+      "move_played": "e2e4",
+      "fen_before": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "timestamp": "2025-12-28T22:42:49.514732",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 2,
+      "move_played": "e7e5",
+      "fen_before": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "fen_after": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "timestamp": "2025-12-28T22:43:09.113383",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 3,
+      "move_played": "f1a6",
+      "fen_before": "rnbqkbnr/pppp1ppp/B7/4p3/4P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
+      "fen_after": "rnbqkbnr/pppp1ppp/B7/4p3/4P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
+      "timestamp": "2025-12-28T22:43:12.403642",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 4,
+      "move_played": "g8h6",
+      "fen_before": "rnbqkb1r/pppp1ppp/B6n/4p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+      "fen_after": "rnbqkb1r/pppp1ppp/B6n/4p3/4P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+      "timestamp": "2025-12-28T22:43:18.130649",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 5,
+      "move_played": "g1h3",
+      "fen_before": "rnbqkb1r/pppp1ppp/B6n/4p3/4P3/7N/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "fen_after": "rnbqkb1r/pppp1ppp/B6n/4p3/4P3/7N/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "timestamp": "2025-12-28T22:43:22.082306",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 6,
+      "move_played": "b7a6",
+      "fen_before": "rnbqkb1r/p1pp1ppp/p6n/4p3/4P3/7N/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "fen_after": "rnbqkb1r/p1pp1ppp/p6n/4p3/4P3/7N/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "timestamp": "2025-12-28T22:43:29.416033",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 7,
+      "move_played": "h3f4",
+      "fen_before": "rnbqkb1r/p1pp1ppp/p6n/4p3/4PN2/8/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+      "fen_after": "rnbqkb1r/p1pp1ppp/p6n/4p3/4PN2/8/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+      "timestamp": "2025-12-28T22:43:33.575972",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 8,
+      "move_played": "e8e7",
+      "fen_before": "rnbq1b1r/p1ppkppp/p6n/4p3/4PN2/8/PPPP1PPP/RNBQK2R w KQ - 2 5",
+      "fen_after": "rnbq1b1r/p1ppkppp/p6n/4p3/4PN2/8/PPPP1PPP/RNBQK2R w KQ - 2 5",
+      "timestamp": "2025-12-28T22:43:34.696419",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 9,
+      "move_played": "f4e2",
+      "fen_before": "rnbq1b1r/p1ppkppp/p6n/4p3/4P3/8/PPPPNPPP/RNBQK2R b KQ - 3 5",
+      "fen_after": "rnbq1b1r/p1ppkppp/p6n/4p3/4P3/8/PPPPNPPP/RNBQK2R b KQ - 3 5",
+      "timestamp": "2025-12-28T22:43:35.444318",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 10,
+      "move_played": "e7e6",
+      "fen_before": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQK2R w KQ - 4 6",
+      "fen_after": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQK2R w KQ - 4 6",
+      "timestamp": "2025-12-28T22:43:36.192628",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 11,
+      "move_played": "h1f1",
+      "fen_before": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQKR2 b Q - 5 6",
+      "fen_after": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQKR2 b Q - 5 6",
+      "timestamp": "2025-12-28T22:43:36.881607",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 12,
+      "move_played": "d8e8",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQKR2 w Q - 6 7",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQKR2 w Q - 6 7",
+      "timestamp": "2025-12-28T22:43:37.533499",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 13,
+      "move_played": "f1g1",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQK1R1 b Q - 7 7",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQK1R1 b Q - 7 7",
+      "timestamp": "2025-12-28T22:43:38.383525",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 14,
+      "move_played": "e8d8",
+      "fen_before": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQK1R1 w Q - 8 8",
+      "fen_after": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQK1R1 w Q - 8 8",
+      "timestamp": "2025-12-28T22:43:39.123604",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 15,
+      "move_played": "e1f1",
+      "fen_before": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQ1KR1 b - - 9 8",
+      "fen_after": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQ1KR1 b - - 9 8",
+      "timestamp": "2025-12-28T22:43:39.827500",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 16,
+      "move_played": "d8e8",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQ1KR1 w - - 10 9",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNBQ1KR1 w - - 10 9",
+      "timestamp": "2025-12-28T22:43:40.478703",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 17,
+      "move_played": "d1e1",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNB1QKR1 b - - 11 9",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNB1QKR1 b - - 11 9",
+      "timestamp": "2025-12-28T22:43:41.192076",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 18,
+      "move_played": "e8d8",
+      "fen_before": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNB1QKR1 w - - 12 10",
+      "fen_after": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/8/PPPPNPPP/RNB1QKR1 w - - 12 10",
+      "timestamp": "2025-12-28T22:43:41.753151",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 19,
+      "move_played": "b1c3",
+      "fen_before": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/2N5/PPPPNPPP/R1B1QKR1 b - - 13 10",
+      "fen_after": "rnbq1b1r/p1pp1ppp/p3k2n/4p3/4P3/2N5/PPPPNPPP/R1B1QKR1 b - - 13 10",
+      "timestamp": "2025-12-28T22:43:42.293076",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 20,
+      "move_played": "d8e8",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/2N5/PPPPNPPP/R1B1QKR1 w - - 14 11",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/4P3/2N5/PPPPNPPP/R1B1QKR1 w - - 14 11",
+      "timestamp": "2025-12-28T22:43:42.847420",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 21,
+      "move_played": "e2d4",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/3NP3/2N5/PPPP1PPP/R1B1QKR1 b - - 15 11",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p3k2n/4p3/3NP3/2N5/PPPP1PPP/R1B1QKR1 b - - 15 11",
+      "timestamp": "2025-12-28T22:43:43.486857",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 22,
+      "move_played": "e6f6",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p4k1n/4p3/3NP3/2N5/PPPP1PPP/R1B1QKR1 w - - 16 12",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p4k1n/4p3/3NP3/2N5/PPPP1PPP/R1B1QKR1 w - - 16 12",
+      "timestamp": "2025-12-28T22:43:44.793454",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 23,
+      "move_played": "d4c6",
+      "fen_before": "rnb1qb1r/p1pp1ppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 17 12",
+      "fen_after": "rnb1qb1r/p1pp1ppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 17 12",
+      "timestamp": "2025-12-28T22:43:45.588004",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 24,
+      "move_played": "f8e7",
+      "fen_before": "rnb1q2r/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 18 13",
+      "fen_after": "rnb1q2r/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 18 13",
+      "timestamp": "2025-12-28T22:43:46.253945",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 25,
+      "move_played": "c6b8",
+      "fen_before": "rNb1q2r/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 0 13",
+      "fen_after": "rNb1q2r/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 0 13",
+      "timestamp": "2025-12-28T22:43:46.913533",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 26,
+      "move_played": "h8f8",
+      "fen_before": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 1 14",
+      "fen_after": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 1 14",
+      "timestamp": "2025-12-28T22:43:47.667920",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 27,
+      "move_played": "b8c6",
+      "fen_before": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 2 14",
+      "fen_after": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 2 14",
+      "timestamp": "2025-12-28T22:43:48.402644",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 28,
+      "move_played": "f8g8",
+      "fen_before": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 3 15",
+      "fen_after": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 3 15",
+      "timestamp": "2025-12-28T22:43:49.151440",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 29,
+      "move_played": "c6b8",
+      "fen_before": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 4 15",
+      "fen_after": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 4 15",
+      "timestamp": "2025-12-28T22:43:49.828095",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 30,
+      "move_played": "g8f8",
+      "fen_before": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 5 16",
+      "fen_after": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 5 16",
+      "timestamp": "2025-12-28T22:43:50.508944",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 31,
+      "move_played": "b8c6",
+      "fen_before": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 6 16",
+      "fen_after": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 6 16",
+      "timestamp": "2025-12-28T22:43:51.354287",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 32,
+      "move_played": "f8g8",
+      "fen_before": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 7 17",
+      "fen_after": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 7 17",
+      "timestamp": "2025-12-28T22:43:52.043612",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 33,
+      "move_played": "c6b8",
+      "fen_before": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 8 17",
+      "fen_after": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 8 17",
+      "timestamp": "2025-12-28T22:43:52.717553",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 34,
+      "move_played": "g8f8",
+      "fen_before": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 9 18",
+      "fen_after": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 9 18",
+      "timestamp": "2025-12-28T22:43:53.403212",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 35,
+      "move_played": "b8c6",
+      "fen_before": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 10 18",
+      "fen_after": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 10 18",
+      "timestamp": "2025-12-28T22:43:54.168971",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 36,
+      "move_played": "f8g8",
+      "fen_before": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 11 19",
+      "fen_after": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 11 19",
+      "timestamp": "2025-12-28T22:43:54.985114",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 37,
+      "move_played": "c6b8",
+      "fen_before": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 12 19",
+      "fen_after": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 12 19",
+      "timestamp": "2025-12-28T22:43:55.686376",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 38,
+      "move_played": "g8f8",
+      "fen_before": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 13 20",
+      "fen_after": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 13 20",
+      "timestamp": "2025-12-28T22:43:56.429736",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 39,
+      "move_played": "b8c6",
+      "fen_before": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 14 20",
+      "fen_after": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 14 20",
+      "timestamp": "2025-12-28T22:43:57.142668",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 40,
+      "move_played": "f8g8",
+      "fen_before": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 15 21",
+      "fen_after": "r1b1q1r1/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 15 21",
+      "timestamp": "2025-12-28T22:43:57.813036",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 41,
+      "move_played": "c6b8",
+      "fen_before": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 16 21",
+      "fen_after": "rNb1q1r1/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 16 21",
+      "timestamp": "2025-12-28T22:43:58.702800",
+      "optimal_move": null,
+      "evaluation": null
+    },
+    {
+      "move_number": 42,
+      "move_played": "g8f8",
+      "fen_before": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 17 22",
+      "fen_after": "rNb1qr2/p1ppbppp/p4k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 w - - 17 22",
+      "timestamp": "2025-12-28T22:43:59.455596"
+    },
+    {
+      "move_number": 43,
+      "move_played": "b8c6",
+      "fen_before": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 18 22",
+      "fen_after": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 18 22",
+      "timestamp": "2025-12-28T22:44:00.149260"
+    }
+  ],
+  "total_moves": 43,
+  "final_fen": "r1b1qr2/p1ppbppp/p1N2k1n/4p3/4P3/2N5/PPPP1PPP/R1B1QKR1 b - - 18 22",
+  "result": "1/2-1/2"
+}
